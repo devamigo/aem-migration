@@ -1,4 +1,4 @@
-# aem-migration - JMH Website
+## aem-migration - JMH Website
 
 # Templates (static) used Count: 8
 -------------------------------------
@@ -14,7 +14,7 @@
 
 # Total pages  : 2647
 
-## PRC Website
+# PRC Website
 
 # Templates (static) used Count: 6
 -------------------------------------
