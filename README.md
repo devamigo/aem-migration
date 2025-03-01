@@ -1,33 +1,33 @@
-## aem-migration - JMH Website
+# aem-migration - JMH Website
 
-# Templates (static) used Count: 8
+## Templates (static) used Count: 8
 -------------------------------------
-/apps/jmh/templates/content
-/apps/jmh/templates/fragment
-/apps/jmh/templates/generic
-/apps/jmh/templates/page-article
-/apps/jmh/templates/page-campaign
-/apps/jmh/templates/page-content
-/apps/jmh/templates/page-event
-/apps/jmh/templates/page-home
+* /apps/jmh/templates/content
+* /apps/jmh/templates/fragment
+* /apps/jmh/templates/generic
+* /apps/jmh/templates/page-article
+* /apps/jmh/templates/page-campaign
+* /apps/jmh/templates/page-content
+* /apps/jmh/templates/page-event
+* /apps/jmh/templates/page-home
 
 
-# Total pages  : 2647
+### Total pages  : 2647
 
 # PRC Website
 
-# Templates (static) used Count: 6
+## Templates (static) used Count: 6
 -------------------------------------
-/apps/prc/templates/contactus
-/apps/prc/templates/content
-/apps/prc/templates/contentdetails
-/apps/prc/templates/homepage
-/apps/prc/templates/public
-/apps/prc/templates/resources
+* /apps/prc/templates/contactus
+* /apps/prc/templates/content
+* /apps/prc/templates/contentdetails
+* /apps/prc/templates/homepage
+* /apps/prc/templates/public
+* /apps/prc/templates/resources
 
-# Total Pages: 665
+### Total Pages: 665
 
-## Tried Modernization tool.
+# Tried Modernization tool.
 
 Note: for Tool setup used
 aem-modernize-tools.all-2.2.0-aem65.zip, 238 KB, Jun 6, 2024 (when using aem-modernize-tools.all-2.2.0.zip it gave budle dep error for caom.day.cq.search)
