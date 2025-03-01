@@ -1,8 +1,4 @@
-# aem-migration
-
-
-## JMH Website
-===================
+# aem-migration - JMH Website
 
 # Templates (static) used Count: 8
 -------------------------------------
@@ -19,7 +15,6 @@
 # Total pages  : 2647
 
 ## PRC Website
-===============
 
 # Templates (static) used Count: 6
 -------------------------------------
@@ -33,7 +28,6 @@
 # Total Pages: 665
 
 ## Tried Modernization tool.
-==================================
 
 Note: for Tool setup used
 aem-modernize-tools.all-2.2.0-aem65.zip, 238 KB, Jun 6, 2024 (when using aem-modernize-tools.all-2.2.0.zip it gave budle dep error for caom.day.cq.search)
