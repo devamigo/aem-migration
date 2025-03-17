@@ -2,14 +2,26 @@
 
 ## Templates (static) used Count: 8
 -------------------------------------
-* /apps/jmh/templates/content
-* /apps/jmh/templates/fragment
-* /apps/jmh/templates/generic
-* /apps/jmh/templates/page-article
-* /apps/jmh/templates/page-campaign
-* /apps/jmh/templates/page-content
-* /apps/jmh/templates/page-event
-* /apps/jmh/templates/page-home
+| Template | Count | Eg: Pages |
+| -------- | ----- | --------- |
+|   /apps/jmh/templates/content       |  200     | /content/jmh/en/shared      |
+|                                     |          | /content/jmh/en/home/about-john-muir-health/newsletters |
+|                                     |          | /content/jmh/en/home/find-doctor |
+|/apps/jmh/templates/fragment         |   8       |/content/jmh/en/shared/footer |
+|                                     |          |/content/jmh/en/shared/top-navigation |
+|                                     |          |/content/jmh/en/shared/top-navigation/patients |
+|                                     |          |/content/jmh/en/shared/top-navigation/services |
+|                                     |          |/content/jmh/en/shared/top-navigation/health-education |
+|                                     |          |/content/jmh/en/shared/top-navigation/for-physicians |
+|                                     |          |/content/jmh/en/shared/top-navigation/giving |
+|                                     |          |/content/jmh/en/shared/top-navigation/about |
+|  /apps/jmh/templates/generic        |   1      |/content/jmh/en/home/patients-and-visitors/payment-and-insurance/paying-for-services/online-bill-pay |
+| /apps/jmh/templates/page-article    |  318     | /content/jmh/en/home/about-john-muir-health/press-room * |
+| /apps/jmh/templates/page-campaign   |  4       |/content/jmh/en/home/services/cancer-services/* |
+| /apps/jmh/templates/page-content    | 1627     | /content/jmh |
+|                                     |          |/content/jmh/en |
+|                                     |          |/content/jmh/en/home/about-john-muir-health |
+| /apps/jmh/templates/page-home       |  1       |  /content/jmh/en/home |
 
 
 ### Total pages  : 2647
