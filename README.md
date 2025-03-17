@@ -2,26 +2,26 @@
 
 ## Templates (static) used Count: 8
 -------------------------------------
-| Template | Count | Eg: Pages |  sling:resourceType |
-| -------- | ----- | --------- | --------- |
-|   /apps/jmh/templates/content       |  200     | /content/jmh/en/shared      | jmh/components/page/content |
-|                                     |          | /content/jmh/en/home/about-john-muir-health/newsletters | |
-|                                     |          | /content/jmh/en/home/find-doctor | |
-|/apps/jmh/templates/fragment         |   8       |/content/jmh/en/shared/footer | jmh/components/page/fragment |
-|                                     |          |/content/jmh/en/shared/top-navigation | |
-|                                     |          |/content/jmh/en/shared/top-navigation/patients | |
-|                                     |          |/content/jmh/en/shared/top-navigation/services | |
-|                                     |          |/content/jmh/en/shared/top-navigation/health-education | |
-|                                     |          |/content/jmh/en/shared/top-navigation/for-physicians | |
-|                                     |          |/content/jmh/en/shared/top-navigation/giving | |
-|                                     |          |/content/jmh/en/shared/top-navigation/about | |
-|  /apps/jmh/templates/generic        |   1      |/content/jmh/en/home/patients-and-visitors/payment-and-insurance/paying-for-services/online-bill-pay | jmh/components/page/generic |
-| /apps/jmh/templates/page-article    |  318     | /content/jmh/en/home/about-john-muir-health/press-room * |jmh/components/structure/pageArticle |
-| /apps/jmh/templates/page-campaign   |  4       |/content/jmh/en/home/services/cancer-services/* | jmh/components/structure/pageCampaign |
-| /apps/jmh/templates/page-content    | 1627     | /content/jmh | jmh/components/structure/page |
-|                                     |          |/content/jmh/en | |
-|                                     |          |/content/jmh/en/home/about-john-muir-health | |
-| /apps/jmh/templates/page-home       |  1       |  /content/jmh/en/home | jmh/components/structure/pageHome |
+| Template | Count | Eg: Pages |  sling:resourceType | sling:resourceSuperType |
+| -------- | ----- | --------- | --------- | --------- |
+|   /apps/jmh/templates/content       |  200     | /content/jmh/en/shared      | jmh/components/page/content | jmh/components/page/master |
+|                                     |          | /content/jmh/en/home/about-john-muir-health/newsletters | | |
+|                                     |          | /content/jmh/en/home/find-doctor | | |
+|/apps/jmh/templates/fragment         |   8       |/content/jmh/en/shared/footer | jmh/components/page/fragment | jmh/components/page/generic |
+|                                     |          |/content/jmh/en/shared/top-navigation | | |
+|                                     |          |/content/jmh/en/shared/top-navigation/patients | | |
+|                                     |          |/content/jmh/en/shared/top-navigation/services | | |
+|                                     |          |/content/jmh/en/shared/top-navigation/health-education | | |
+|                                     |          |/content/jmh/en/shared/top-navigation/for-physicians | | |
+|                                     |          |/content/jmh/en/shared/top-navigation/giving | | |
+|                                     |          |/content/jmh/en/shared/top-navigation/about | | |
+|  /apps/jmh/templates/generic        |   1      |/content/jmh/en/home/patients-and-visitors/payment-and-insurance/paying-for-services/online-bill-pay | jmh/components/page/generic | jmh/components/page/master |
+| /apps/jmh/templates/page-article    |  318     | /content/jmh/en/home/about-john-muir-health/press-room * |jmh/components/structure/pageArticle | jmh/components/structure/page |
+| /apps/jmh/templates/page-campaign   |  4       |/content/jmh/en/home/services/cancer-services/* | jmh/components/structure/pageCampaign | jmh/components/structure/page |
+| /apps/jmh/templates/page-content    | 1627     | /content/jmh | jmh/components/structure/page | wcm/foundation/components/page |
+|                                     |          |/content/jmh/en | | |
+|                                     |          |/content/jmh/en/home/about-john-muir-health | | |
+| /apps/jmh/templates/page-home       |  1       |  /content/jmh/en/home | jmh/components/structure/pageHome | jmh/components/structure/page |
 
 
 ### Total pages  : 2647
